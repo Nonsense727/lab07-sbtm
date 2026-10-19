@@ -1,0 +1,27 @@
+### POST /api/books  он = 99999 (1000-2100 байх ёстой)
+HTTP/1.1 201 Created
+Content-Type: application/json
+Date: Mon, 19 Oct 2026 06:45:24 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+Transfer-Encoding: chunked
+
+{"result":"OK","id":5}
+### POST /api/books  он = "abc" (бүхэл тоо байх ёстой)
+HTTP/1.1 201 Created
+Content-Type: application/json
+Date: Mon, 19 Oct 2026 06:45:24 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+Transfer-Encoding: chunked
+
+{"result":"OK","id":6}
+### GET /api/books — хүлээн авсан эсэх
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Date: Mon, 19 Oct 2026 06:45:24 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+Transfer-Encoding: chunked
+
+[{"id":1,"title":"Тунгалаг Тамир","author":"Ч.Лодойдамба","year":1971},{"id":2,"title":"Clean Code","author":"Robert C. Martin","year":2008},{"id":3,"title":"The Pragmatic Programmer","author":"D.Thomas & A.Hunt","year":1999},{"id":4,"title":"","author":""},{"id":5,"title":"Он хязгаар","author":"Тест","year":99999},{"id":6,"title":"Он текст","author":"Тест","year":"abc"}]
