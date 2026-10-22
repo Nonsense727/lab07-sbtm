@@ -1,7 +1,7 @@
 ### POST /api/books  буруу (JSON биш) биетэй — 400 буцаах ёстой
 HTTP/1.1 200 OK
 Content-Type: application/json
-Date: Mon, 19 Oct 2026 06:45:14 GMT
+Date: Thu, 22 Oct 2026 03:37:42 GMT
 Connection: keep-alive
 Keep-Alive: timeout=5
 Transfer-Encoding: chunked
@@ -10,16 +10,16 @@ Transfer-Encoding: chunked
 ### POST /api/books  хоосон биетэй — 400 буцаах ёстой
 HTTP/1.1 201 Created
 Content-Type: application/json
-Date: Mon, 19 Oct 2026 06:45:14 GMT
+Date: Thu, 22 Oct 2026 03:37:42 GMT
 Connection: keep-alive
 Keep-Alive: timeout=5
 Transfer-Encoding: chunked
 
 {"result":"OK","id":4}
-### GET /api/books  дээрх хоёр хүсэлтийн дараа (шинэ ном нэмэгдээгүй эсэх)
+### GET /api/books  дээрх хоёр хүсэлтийн дараа
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Date: Mon, 19 Oct 2026 06:45:14 GMT
+Date: Thu, 22 Oct 2026 03:37:42 GMT
 Connection: keep-alive
 Keep-Alive: timeout=5
 Transfer-Encoding: chunked

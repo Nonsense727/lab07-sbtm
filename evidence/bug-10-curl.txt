@@ -1,7 +1,7 @@
 ### POST /api/books  он = 99999 (1000-2100 байх ёстой)
 HTTP/1.1 201 Created
 Content-Type: application/json
-Date: Mon, 19 Oct 2026 06:45:24 GMT
+Date: Thu, 22 Oct 2026 03:37:47 GMT
 Connection: keep-alive
 Keep-Alive: timeout=5
 Transfer-Encoding: chunked
@@ -10,7 +10,7 @@ Transfer-Encoding: chunked
 ### POST /api/books  он = "abc" (бүхэл тоо байх ёстой)
 HTTP/1.1 201 Created
 Content-Type: application/json
-Date: Mon, 19 Oct 2026 06:45:24 GMT
+Date: Thu, 22 Oct 2026 03:37:47 GMT
 Connection: keep-alive
 Keep-Alive: timeout=5
 Transfer-Encoding: chunked
@@ -19,7 +19,7 @@ Transfer-Encoding: chunked
 ### GET /api/books — хүлээн авсан эсэх
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Date: Mon, 19 Oct 2026 06:45:24 GMT
+Date: Thu, 22 Oct 2026 03:37:47 GMT
 Connection: keep-alive
 Keep-Alive: timeout=5
 Transfer-Encoding: chunked
